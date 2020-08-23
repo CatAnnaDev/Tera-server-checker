@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <META HTTP-EQUIV="refresh" CONTENT="60">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="js/noty/lib/noty.css">
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="js/circle-progress/circle-progress.min.js"></script>
+    <script type="text/javascript" src="js/noty/lib/noty.min.js"></script>
+    <title>Monitor Dashboard</title>
+</head>
+
+<body>
+    <div id="circle"><strong></strong></div>
+    <script>
+        $('#circle').circleProgress({
+            value: "1.0",
+            size: 350,
+            thickness: 6,
+            emptyFill: "#262b33",
+            fill: {
+                color: ["#0AB0DE"]
+            }
+        }).on('circle-animation-progress', function(event, progress, stepValue) {
+            $(this).children('strong').text((stepValue * 100).toFixed(0) + '%');
+        });
+    </script>
+    <script type="text/javascript" src="js/circleColor.js"></script>
+    <script type="text/javascript" src="js/circleSize.js"></script>
+    <script type="text/javascript" src="js/notifications.js"></script>
+    <script>
+        new Noty({
+            text: "Report created " + "08/23/2020 14:54:11",
+            type: 'notification',
+            theme: 'mint',
+            closeWith: ['click'],
+            progressBar: true,
+            timeout: 10000,
+            animation: {
+                open: 'animated bounceInRight',
+                close: 'animated bounceOutRight',
+                easing: 'swing',
+            }
+        }).show();
+    </script>
+
+    <div class="table-title">
+        <h3></h3>
+    </div>
+
+    <table class="table-fill">
+        <thead>
+            <tr>
+                <th width="65%" class="text-left">Device</th>
+                <th width="35%" class="text-center">Status</th>
+            </tr>
+        </thead>
+        <tbody class="table-hover">
+					
+            <tr>
+							<td onClick="window.open('http://79.110.94.213:7803')";class="text-left">Yurian - (DE) -:7803</td>
+							
+							<td><div class="led-green"></div></td>
+							
+						</tr>
+					
+            <tr>
+							<td onClick="window.open('http://79.110.94.214:7804')";class="text-left">Seren - (FR) -:7804</td>
+							
+							<td><div class="led-green"></div></td>
+							
+						</tr>
+					
+            <tr>
+							<td onClick="window.open('http://79.110.94.211:7801')";class="text-left">Mystel - (INT) -:7801</td>
+							
+							<td><div class="led-green"></div></td>
+							
+						</tr>
+					
+            <tr>
+							<td onClick="window.open('http://104.215.148.89:7802')";class="text-left">Shen - (Asia) -:7802</td>
+							
+							<td><div class="led-green"></div></td>
+							
+						</tr>
+					
+            <tr>
+							<td onClick="window.open('http://79.110.94.212:7805')";class="text-left">Shakan - (RU) -:7805</td>
+							
+							<td><div class="led-green"></div></td>
+							
+						</tr>
+					
+            <tr>
+							<td onClick="window.open('http://65.52.54.165:10001')";class="text-left">Velika - (NA) -:10001</td>
+							
+							<td><div class="led-green"></div></td>
+							
+						</tr>
+					
+            <tr>
+							<td onClick="window.open('http://23.100.72.28:10001')";class="text-left">Kaiator - (NA) -:10001</td>
+							
+							<td><div class="led-green"></div></td>
+							
+						</tr>
+					
+			  </tbody>
+    </table>
+</body>
+
+</html>

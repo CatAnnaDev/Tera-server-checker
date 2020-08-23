@@ -1,0 +1,37 @@
+[
+    {
+        "url": "79.110.94.213",
+        "port": 7803,
+        "alias": "Yurian - (DE) -"
+    },
+    {
+        "url": "79.110.94.214",
+        "port": 7804,
+        "alias": "Seren - (FR) -"
+    },
+    {
+        "url": "79.110.94.211",
+        "port": 7801,
+        "alias": "Mystel - (INT) -"
+    },
+    {
+        "url": "104.215.148.89",
+        "port": 7802,
+        "alias": "Shen - (Asia) -"
+    },
+    {
+        "url": "79.110.94.212",
+        "port": 7805,
+        "alias": "Shakan - (RU) -"
+    },    
+    {
+        "url": "65.52.54.165",
+        "port": 10001,
+        "alias": "Velika - (NA) -"
+    },    
+    {
+        "url": "23.100.72.28",
+        "port": 10001,
+        "alias": "Kaiator - (NA) -"
+    }
+]
