@@ -1,7 +1,7 @@
 var value = $('#circle').circleProgress('value');
 if (value >= 1.0){
   //$('#circle').circleProgress({ fill: "green" });
-  new Noty({text: '100% of Servers online',
+  new Noty({text: '100% of servers online',
   type: 'success',
   theme: 'mint',
   closeWith   : ['click'],
