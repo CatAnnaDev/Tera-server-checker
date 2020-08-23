@@ -159,14 +159,14 @@ func_nginx() {
 
   $yellow
   echo
-  echo "Would you like to setup a cronjob that runs the monitor every 5 minutes? (y/n)"
+  echo "Would you like to setup a cronjob that runs the monitor every 1 minutes? (y/n)"
   $reset
   echo
   read input
   if [ "$input" == "y" ]; then
     (
       crontab -l 2>/dev/null
-      echo "*/5 * * * * cd $nginxdir/$project/ && /usr/bin/python report.py &> /dev/null"
+      echo "* * * * * cd $nginxdir/$project/ && /usr/bin/python3 report.py &> /dev/null"
     ) | crontab -
     echo
     $green
