@@ -1,0 +1,22 @@
+language: python
+python:
+ - "3.6"
+
+services:
+- docker
+
+script:
+  - pip install -r requirements.txt
+  - python report.py
+  - ls -l
+  - test -f ./index.html
+  - cat ./index.html
+
+after_script:
+  - set -e
+  - docker build -t PsykoDev/Tera-server-checker .
+  - docker run --rm -d --name monitor PsykoDev/Tera-server-checker
+  - sleep 10
+  - docker ps | grep monitor
+  - docker login -u=PsykoDev -p=$docker_password
+  - docker push PsykoDev/Tera-server-checker
