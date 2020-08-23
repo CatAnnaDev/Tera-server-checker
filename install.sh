@@ -238,11 +238,11 @@ if_ubuntu
 
 $green
 echo "#########################################"
-echo "# Device-Monitor-Dashboard Easy Install #"
+echo "#    Tera server checker Easy Install   #"
 echo "#########################################"
 echo
 $yellow
-echo "Nginx is required to deploy IOT-Monitor-Dashboard via Easy-Install."
+echo "Nginx is required to deploy Tera-server-checker via Easy-Install."
 echo "This script can install packages for you, but you must be root."
 echo "Alternatively, you can use docker, please see https://github.com/PsykoDev/Tera-server-checker"
 echo

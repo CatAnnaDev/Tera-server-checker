@@ -1,7 +1,7 @@
 var value = $('#circle').circleProgress('value');
 if (value >= 1.0){
   //$('#circle').circleProgress({ fill: "green" });
-  new Noty({text: '100% of servers online',
+  new Noty({text: '100% of Servers online',
   type: 'success',
   theme: 'mint',
   closeWith   : ['click'],
@@ -15,7 +15,7 @@ if (value >= 1.0){
   }).show();
 
 } else {
-  new Noty({text: value * 100 + ' % of devices online',
+  new Noty({text: value * 100 + ' % of Servers online',
    type: 'error',
    theme: 'mint',
    closeWith   : ['click'],
