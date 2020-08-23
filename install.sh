@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 nginxdir="/var/www/html"
-gitproject="https://github.com/circa10a/Device-Monitor-Dashboard.git"
+gitproject="https://github.com/PsykoDev/Tera-server-checker.git"
 project="monitor"
 
 func_python() {
@@ -244,7 +244,7 @@ echo
 $yellow
 echo "Nginx is required to deploy IOT-Monitor-Dashboard via Easy-Install."
 echo "This script can install packages for you, but you must be root."
-echo "Alternatively, you can use docker, please see https://github.com/circa10a/Device-Monitor-Dashboard"
+echo "Alternatively, you can use docker, please see https://github.com/PsykoDev/Tera-server-checker"
 echo
 sleep 3
 $reset
