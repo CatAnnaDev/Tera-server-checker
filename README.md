@@ -1,3 +1,7 @@
+## Link Test
+---
+- https://psykodev.github.io/Tera-server-checker/
+
 ## Automation
 ---
 - Setup a web server
