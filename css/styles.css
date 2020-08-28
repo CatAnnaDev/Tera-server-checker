@@ -18,7 +18,7 @@
 }
 body {
   text-align: center;
-  background-color: #191A1B;
+  background-color: rgb(42, 48, 53);
   font-family: "Roboto", helvetica, arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -62,7 +62,7 @@ div.table-title {
 
 th {
   color:#D5DDE5;;
-  background:#1b1e24;
+  background-color: rgb(23, 24, 28);
   border-bottom:4px solid #9ea7af;
   border-right: 1px solid #343a45;
   font-size:23px;
