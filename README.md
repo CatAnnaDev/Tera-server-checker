@@ -2,6 +2,8 @@
 ---
 - https://psykodev.github.io/Tera-server-checker/
 
+- REAL LINK http://psykodev.com/monitor/
+
 ## Automation
 ---
 - Setup a web server
