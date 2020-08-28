@@ -1,8 +1,8 @@
 ## Link Test
 ---
-- https://psykodev.github.io/Tera-server-checker/
+- TEST LINK ( without refresh ) https://psykodev.github.io/Tera-server-checker/
 
-- REAL LINK http://psykodev.com/monitor/
+- REAL LINK ( with refresh ) http://psykodev.com/monitor/
 
 ## Automation
 ---
