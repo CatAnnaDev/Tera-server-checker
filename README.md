@@ -4,6 +4,11 @@
 
 - REAL LINK ( with refresh ) http://psykodev.com/monitor/
 
+## Changelog
+---
+- v1 Dark mode added
+
+
 ## Automation
 ---
 - Setup a web server
